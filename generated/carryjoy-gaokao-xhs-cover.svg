@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1242" height="1660" viewBox="0 0 1242 1660" role="img" aria-labelledby="title desc">
+  <title id="title">CarryJoy 高考加油小红书封面</title>
+  <desc id="desc">参考花束贺卡风格制作的小红书竖版海报，文字为：CarryJoy祝所有考生高考加油！金榜题名！</desc>
+  <defs>
+    <style>
+      .serif { font-family: "Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", "SimSun", "Times New Roman", serif; }
+      .sans { font-family: "Noto Sans CJK SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", Arial, sans-serif; }
+      .headline { font-weight: 800; letter-spacing: -2px; }
+      .small { font-weight: 700; letter-spacing: 1px; }
+      .stem { stroke: #00984a; stroke-width: 15; stroke-linecap: round; fill: none; }
+      .leaf { fill: #00984a; }
+      .confetti { fill: none; stroke-linecap: butt; stroke-width: 17; }
+    </style>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="0" flood-color="#f2ab16" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- warm paper background -->
+  <rect width="1242" height="1660" fill="#fffbea"/>
+
+  <!-- light confetti inspired by the reference cover -->
+  <path class="confetti" d="M205 905 C246 880 284 879 325 911" stroke="#ff91b0"/>
+  <path class="confetti" d="M1065 420 C1111 454 1143 496 1164 545" stroke="#ffe817"/>
+  <path class="confetti" d="M1091 1012 C1128 1017 1161 1004 1188 977" stroke="#ff91b0"/>
+  <path class="confetti" d="M275 1422 C304 1388 339 1361 381 1340" stroke="#ff7a2b"/>
+  <path class="confetti" d="M890 118 C914 111 930 97 940 74" stroke="#95d1f4"/>
+
+  <!-- top typography -->
+  <text x="621" y="156" text-anchor="middle" class="serif" font-size="55" fill="#000">2026 高考季</text>
+  <text x="621" y="306" text-anchor="middle" class="serif headline" font-size="146" fill="#000">CarryJoy</text>
+
+  <!-- flower stems -->
+  <path class="stem" d="M415 1260 C430 1062 427 844 397 656"/>
+  <path class="stem" d="M260 1290 C273 1116 296 1013 323 908"/>
+  <path class="stem" d="M775 1286 C777 1103 787 910 820 697"/>
+  <path class="stem" d="M915 1292 C890 1112 874 968 877 822"/>
+  <path class="stem" d="M1030 1295 C1085 1164 1133 1065 1171 1014"/>
+  <path class="stem" d="M550 1288 C530 1138 520 1010 517 889"/>
+
+  <!-- leaves -->
+  <ellipse class="leaf" cx="74" cy="1243" rx="18" ry="72" transform="rotate(-62 74 1243)"/>
+  <ellipse class="leaf" cx="97" cy="1202" rx="18" ry="70" transform="rotate(-30 97 1202)"/>
+  <ellipse class="leaf" cx="1124" cy="1150" rx="17" ry="74" transform="rotate(25 1124 1150)"/>
+  <ellipse class="leaf" cx="1146" cy="1187" rx="17" ry="74" transform="rotate(69 1146 1187)"/>
+  <ellipse class="leaf" cx="584" cy="1139" rx="18" ry="47" transform="rotate(44 584 1139)"/>
+  <ellipse class="leaf" cx="609" cy="1187" rx="18" ry="47" transform="rotate(62 609 1187)"/>
+
+  <!-- decorative star bursts -->
+  <g transform="translate(750 457)">
+    <path d="M0 -88 L15 -16 L68 -60 L30 -3 L93 0 L30 3 L68 60 L15 16 L0 88 L-15 16 L-68 60 L-30 3 L-93 0 L-30 -3 L-68 -60 L-15 -16 Z" fill="#9cf2c3"/>
+  </g>
+  <g transform="translate(214 912)">
+    <path d="M0 -83 L12 -13 L54 -65 L24 -4 L83 -6 L28 11 L76 48 L16 22 L9 83 L-9 23 L-58 62 L-25 8 L-83 8 L-25 -8 L-58 -62 L-8 -23 Z" fill="#ff91b0"/>
+  </g>
+
+  <!-- flower heads: playful organic blobs -->
+  <g filter="url(#softShadow)">
+    <path d="M157 514 C123 506 100 490 99 462 C98 432 125 410 167 405 C198 401 221 405 242 414 C232 364 243 327 282 312 C315 300 358 311 377 338 C391 358 395 385 393 407 C444 388 496 386 541 408 C588 431 617 469 623 507 C628 536 606 553 557 558 C610 584 647 608 652 638 C657 671 620 703 566 700 C531 699 500 687 472 666 C457 705 416 723 358 728 C301 734 248 722 214 696 C180 671 167 634 194 603 C206 589 222 579 241 571 C213 563 186 554 157 514 Z" fill="#9bd5f5"/>
+    <text x="360" y="504" text-anchor="middle" class="sans small" font-size="67" fill="#000">高考加油！</text>
+    <text x="360" y="570" text-anchor="middle" class="sans small" font-size="42" fill="#000">GAOKAO JIAYOU</text>
+  </g>
+
+  <g transform="rotate(-8 858 654)" filter="url(#softShadow)">
+    <ellipse cx="858" cy="654" rx="245" ry="145" fill="#f995b1"/>
+    <text x="858" y="620" text-anchor="middle" class="sans small" font-size="63" fill="#000">祝所有考生</text>
+    <text x="858" y="692" text-anchor="middle" class="sans small" font-size="53" fill="#000">一路顺风</text>
+  </g>
+
+  <g transform="rotate(-5 505 845)" filter="url(#softShadow)">
+    <path d="M312 747 C338 708 407 707 456 738 C488 704 548 700 592 730 C633 758 646 804 629 853 C613 901 570 953 514 986 C459 1019 394 1014 350 984 C308 955 284 910 291 860 C250 846 245 790 312 747 Z" fill="#ff7a2b"/>
+    <text x="469" y="847" text-anchor="middle" class="sans small" font-size="58" fill="#000">金榜题名！</text>
+    <text x="469" y="910" text-anchor="middle" class="sans small" font-size="39" fill="#000">DREAMS COME TRUE</text>
+  </g>
+
+  <g transform="rotate(-10 263 1000)" filter="url(#softShadow)">
+    <path d="M118 1005 C113 957 154 930 206 944 C222 908 268 896 315 911 C364 927 391 961 383 999 C426 1021 424 1068 379 1089 C341 1107 301 1098 275 1079 C246 1114 183 1122 145 1092 C120 1072 109 1044 118 1005 Z" fill="#9ff0c5"/>
+    <text x="260" y="1010" text-anchor="middle" class="sans small" font-size="50" fill="#000">CarryJoy</text>
+    <text x="260" y="1063" text-anchor="middle" class="sans small" font-size="35" fill="#000">为你加油</text>
+  </g>
+
+  <g transform="rotate(-7 856 1001)" filter="url(#softShadow)">
+    <path d="M664 978 C685 932 734 914 782 929 C808 899 867 894 914 921 C974 915 1024 941 1030 985 C1060 1010 1056 1059 1016 1082 C984 1101 945 1100 913 1085 C893 1125 833 1139 788 1113 C762 1099 749 1076 750 1054 C701 1058 656 1030 664 978 Z" fill="#ffe81e"/>
+    <text x="850" y="990" text-anchor="middle" class="sans small" font-size="59" fill="#000">全力以赴</text>
+    <text x="850" y="1055" text-anchor="middle" class="sans small" font-size="39" fill="#000">不负青春</text>
+  </g>
+
+  <!-- little white flower in the wrapper -->
+  <g transform="translate(666 1265)">
+    <ellipse cx="0" cy="-35" rx="42" ry="30" fill="#fff0e2"/>
+    <ellipse cx="40" cy="0" rx="42" ry="30" fill="#fff0e2"/>
+    <ellipse cx="0" cy="35" rx="42" ry="30" fill="#fff0e2"/>
+    <ellipse cx="-40" cy="0" rx="42" ry="30" fill="#fff0e2"/>
+    <circle cx="0" cy="0" r="22" fill="#ffb21d"/>
+  </g>
+
+  <!-- gift box / poster base -->
+  <path d="M150 1146 H1092 L1163 1294 H79 Z" fill="#ffb31c"/>
+  <rect x="79" y="1294" width="1084" height="263" fill="#ffc64e"/>
+
+  <!-- main message placed prominently on the box -->
+  <text x="621" y="1394" text-anchor="middle" class="sans headline" font-size="63" fill="#000">CarryJoy祝所有考生</text>
+  <text x="621" y="1480" text-anchor="middle" class="sans headline" font-size="76" fill="#000">高考加油！金榜题名！</text>
+</svg>
